@@ -1,0 +1,35 @@
+.form-horizontal{
+    padding: 0 0 0 115px;
+    width: 522px;
+}
+
+.form-horizontal .control-label{
+        font-size: 14px;
+        line-height: 16px;
+        color: #404041;
+        font-weight: bold;
+    }
+
+.form-horizontal .help-block{
+        font-family: 'proxima_nova_rgregular';
+        font-size: 12px;
+        line-height: 14px;
+        color: #A6A8AB;
+        margin-top: 5px;
+    }
+
+.form-horizontal input[type="text"]{
+        width: 326px;
+    }    
+
+.form-horizontal input[type="password"]{
+        width: 326px;
+    }
+
+.form-horizontal input.input-small{
+        width: 154px;
+    }    
+  
+.form-horizontal input.input-tiny{
+        width: 68px !important;
+    }

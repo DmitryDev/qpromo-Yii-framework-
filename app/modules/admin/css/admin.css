@@ -1,0 +1,206 @@
+/* 
+    Document   : admin
+    Created on : Mar 6, 2013, 1:20:23 PM
+    Author     : uvuch
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.paragraph {
+    margin-bottom: 15px;
+}
+
+.form-section {
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px dotted lightgray;   
+}
+
+.view-section {
+    margin-top: 25px;    
+}
+
+.caption {
+    font-weight: bold;
+}
+
+.color-marker {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    min-height: 20px;
+    min-width: 20px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+
+.product-colors {
+    display: block;
+}
+
+.color-item {    
+    display: inline-block;
+    width: 100px;
+    height: 60px;    
+    margin-right: 15px;
+    margin-top: 5px;    
+}
+
+.color-item .delete-control {
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    margin-top: 5px;
+    vertical-align: central;
+}
+
+.color-item .delete-control label{
+    position: relative;
+    top: -2px;
+}
+
+.product-colors .add-control label{
+    position: relative;
+    top: -7px;
+}
+
+.product-colors .add-control input[type="checkbox"]{
+    position: relative;
+    top: -6px;    
+}
+
+.new-product-colors .color-item{
+    margin-right: 19px;
+}
+
+.new-product-colors .color-item .delete-button{
+    position: relative;
+    top: -5px;
+    color: blue;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 7px;
+}
+
+.product-capacities {
+    display: block;    
+}
+
+.product-capacity {    
+    display: inline-block;
+    width: 120px;
+    height: 30px;    
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.product-capacity .delete-control label{
+    position: relative;
+    top: -1px;
+}
+
+.capacity-value {
+    display: inline-block;
+    width: 50px;    
+    text-align: right;
+}
+
+.new-product-capacities .product-capacity .delete-button{    
+    color: blue;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 7px;
+}
+
+input.error {
+    border: 1px solid red;
+}
+
+.errorMessage {
+    color:red;
+}
+
+.product-imprint input[type=checkbox] {
+    position: relative;
+    top: 3px;
+}
+
+.product-imprint .printing-method {
+    margin-right: 25px;
+}
+
+.product-pricing table th {    
+    background-color: rgb(229, 241, 244);
+    border-right: 1px solid darkgray;
+    border-bottom:  1px solid darkgray;
+}
+.product-pricing table td {        
+    background-color: rgb(248, 248, 248);    
+}
+
+.product-pricing table.existant-prices th, .product-pricing table.existant-prices td {
+    /*border: 1px solid darkgray;*/    
+}
+
+.product-pricing table.existant-prices .centered{
+    text-align: center;
+}
+
+.product-pricing table.existant-prices label {
+    position: relative;
+    top: -2px;
+}
+
+.generate-catalog-btn {
+    display: inline-block;
+    position: relative;
+    /*top: -34px;*/
+    left:30px;
+}
+
+.export-btn {
+    display: inline-block;
+    position: relative;
+    /*top: -34px;*/
+    left:30px;
+}
+
+.limit-selector {
+    display: inline-block;    
+    margin-left: 30px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    margin-top: 0;
+    float: right;
+}
+
+.limit {
+    text-align: center;
+    border: 1px solid rgb(154, 175, 229);    
+    display: inline-block;
+    padding: 0;
+    
+    width: 25px;
+    height: 15px;
+    color: rgb(14, 80, 158);
+    text-decoration: none;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.limit:hover {
+    border: 1px solid rgb(0, 53, 155);
+    color: rgb(14, 80, 158);
+}
+
+.limit.active {
+    background-color: rgb(46, 106, 177);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}

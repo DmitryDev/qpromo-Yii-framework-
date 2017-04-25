@@ -1,0 +1,23 @@
+/* 
+    Document   : CategoryTree
+    Created on : Sep 19, 2012, 5:28:19 PM
+    Author     : uvuch
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.image-uploader input{
+    display: block;
+}
+
+a.add-image {
+    text-decoration:none;
+}
+
+a.add-image:hover {
+    text-decoration:underline;
+}

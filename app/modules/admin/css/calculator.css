@@ -1,0 +1,55 @@
+/* 
+    Document   : calculator
+    Created on : Apr 17, 2013, 9:34:06 AM
+    Author     : uvuch
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.errorMessage {
+    color: red;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+ul.printing {
+    list-style-type: none;
+}
+
+ul.printing li span {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    padding-right: 10px;    
+}
+
+div.results {
+    margin-top: 50px;
+    border-top: 1px dotted gray;
+    padding-top: 25px;
+}
+
+div.results-output {
+    margin: 10px;
+}
+
+div.printing-results {
+    margin: 10px 10px 10px 50px;
+}
+
+div.printing-result {
+    margin-top: 10px;
+}
+
+div.totals {
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: 600;
+}

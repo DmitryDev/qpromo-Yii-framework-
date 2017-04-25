@@ -1,0 +1,13 @@
+app/runtime/*
+html_public/assets/*
+html_public/images/product/*
+html_public/images/specials/*
+html_public/images/accessories/*
+html_public/images/packaging/*
+html_public/images/preloaded/*
+html_public/images/marketing/*
+html_public/downloads/*
+html_public/pdf/*
+html_public/slice/.idea/*
+.idea/*
+/app/runtime

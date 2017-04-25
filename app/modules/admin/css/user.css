@@ -1,0 +1,31 @@
+/* 
+    Document   : user
+    Created on : Feb 24, 2012, 4:16:06 PM
+    Author     : Sergey Muzyka    
+*/
+
+
+#shipping-billing {    
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0 20px 130px;        
+}
+
+#shipping-billing p {
+    padding: 0;
+    margin-bottom: 10px;
+    font-weight: bold;    
+}
+
+.shipping {
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align:top;
+}
+
+.billing {    
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align:top;
+}
+

@@ -1,0 +1,38 @@
+/* 
+    Document   : CategoriesTree
+    Created on : Mar 12, 2013, 3:10:15 PM
+    Author     : uvuch
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.treeview-widget {
+     border: 1px solid darkgray; 
+     border-radius: 5px; 
+     cursor: default;
+     padding: 5px;
+     margin: 10px;
+}
+
+.treeview-widget ul{
+    list-style: none;
+}
+
+.treeview-widget li{
+    width: auto;            
+}
+
+.treeview-widget .tree-item{
+    display: box;
+    width: 98%;       
+    border-radius: 3px;
+    border: 1px solid #E0E0FF;
+    background-color: #E5F1F4 ;    
+    min-height: 20px;
+    padding: 5px 0 0 15px; 
+    margin-bottom: 2px;
+}
+
+.treeview-widget .tree-item span{
+    float: right;
+}

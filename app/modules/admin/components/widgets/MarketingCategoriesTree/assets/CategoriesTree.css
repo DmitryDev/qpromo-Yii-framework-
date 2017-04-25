@@ -1,0 +1,27 @@
+/* 
+    Document   : CategoriesTree
+    Created on : Mar 12, 2013, 3:10:15 PM
+    Author     : uvuch
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.treeview-widget {
+     border: 1px solid darkgray; 
+     border-radius: 5px; 
+     cursor: default;
+     padding: 0;
+     margin: 0;
+}
+
+.treeview-widget ul{
+    list-style: none;
+}
+
+.treeview-widget ul li span {
+    color: black;
+}
+
+.treeview-widget ul li span.selected{
+    color: green;
+}

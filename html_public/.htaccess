@@ -1,0 +1,15 @@
+#AuthType Basic
+#AuthName "Restricted Zone"
+#AuthBasicProvider file
+#AuthUserFile /etc/httpd/conf/.htpasswd
+#Require user qpromo
+
+
+Allow From All
+Options +FollowSymLinks -Indexes
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php

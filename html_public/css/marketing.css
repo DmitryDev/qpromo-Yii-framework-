@@ -1,0 +1,104 @@
+#year-picker {     
+     padding: 0;
+     list-style-type: none;
+     text-align: center;
+     
+     height: 30px;
+     width: 600px;
+     margin: 0 auto;
+     
+     border-radius: 5px;
+     -moz-box-shadow: 0px 0px 5px #888;
+     -webkit-box-shadow: 0px 0px 5px #888;
+     box-shadow: 0px 0px 5px #888;
+     background-color: #fbfbfb;
+ }
+
+ #year-picker li {
+     display: inline;
+     
+     float: left;
+     line-height: 28px;
+     margin: 0 15px;
+     padding: 0;
+     position: relative;
+     font-size: 13px;
+     font-weight: bold;
+     text-align: center;
+ }
+
+ #year-picker li a
+ {     
+     
+     text-decoration: none;
+     display: block;
+     padding: 0 10px;
+     text-align: center;
+     margin: 0 auto;
+     min-width: 38px;
+     width: auto;
+     color: 0;
+ }
+
+ #year-picker li a.active {               
+     background-color: #0077FF;
+     font-weight: bold;
+     height: 32px;
+     top: -1px;
+     border-radius: 3px;
+     color: white;
+ }
+ #year-picker li a.active:after {
+     border: 8px solid transparent;     
+     border-top-color: #0077FF;
+     top: 100%;
+     left: 55%;
+     margin-left: -10px;
+     content: ' ';
+     height: 0;
+     position: absolute;
+     width: 0;
+ }
+
+ #year-picker li a:hover
+ {
+ }
+
+ #pages .page {
+    display: none;
+    padding: 0;     
+    text-align: center;
+     
+    width: 70%;
+    margin: 0 auto;
+ }
+ 
+ #pages article {
+    display: block;    
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px dotted darkgray;
+    text-align: center;
+ }
+ 
+ #pages article .issue {
+     margin-right: 25px;
+ }
+ 
+ #pages .page.active {     
+     display: block;
+ }
+ 
+ #pages article span.issue {
+     display: inline-block;
+ }
+ 
+ #pages article a.download {
+     display: block;
+ }
+ 
+ .marketing-category {
+     margin-top: 20px;
+     display: block;
+     text-align: center;
+ }

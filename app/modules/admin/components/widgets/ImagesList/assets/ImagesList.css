@@ -1,0 +1,39 @@
+/* 
+    Document   : ImagesList
+    Created on : Sep 25, 2012, 7:20:19 PM
+    Author     : uvuch    
+*/
+
+
+root { 
+    display: block;
+}
+
+.image-list-item {
+    border: 1px solid darkgray;
+    border-radius: 5px;        
+    display: inline-block;
+    padding: 5px;
+    margin: 10px 10px 10px 0;    
+    vertical-align: top;
+    /*height: 220px;*/
+    height: 160px;
+    width: 240px;
+}
+
+img.default-image {
+    display: inline;    
+}
+
+.image-list-controls {
+    margin-top: 5px;
+}
+
+.image-list-item span {
+    vertical-align: top;
+}
+    
+ul.image-list{
+    padding: 0;
+    margin: 5px 0 0;
+}
